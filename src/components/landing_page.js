@@ -15,26 +15,26 @@ class LandingPage extends Component {
             />
 
             <div className="banner-text">
-              <h1>Software Developer Student</h1>
+              <h1>Luke Slevinsky</h1>
 
               <hr/>
 
-              <p>Python | Ruby on Rails | Java | C++</p>
+              <p>Software Developer Student</p>
 
               <div className="social-links">
 
                 {/* LinkedIn */}
-                <a href="http://google.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/luke-slevinsky/" target="_blank" rel="noopener noreferrer">
                   <i className="fa fa-linkedin" aria-hidden="true" />
                 </a>
 
                 {/* GitHub */}
-                <a href="http://google.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/LukeSlev" target="_blank" rel="noopener noreferrer">
                   <i className="fa fa-github-square" aria-hidden="true" />
                 </a>
 
                 {/* Facebook */}
-                <a href="http://google.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.facebook.com/luke.slevinsky" target="_blank" rel="noopener noreferrer">
                   <i className="fa fa-facebook-square" aria-hidden="true" />
                 </a>
 
