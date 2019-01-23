@@ -25,6 +25,23 @@
   border-radius: 50%;
 }
 
+.chill-img {
+  height: 300px;
+  border-radius: 3%;
+}
+
+.mountains-img {
+  transform: rotate(90deg);
+  height: 200px;
+  color: 'white';
+  text-decoration: 'none';
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5%;
+}
+
+
 .banner-text {
   background-color: black;
   opacity: .8;
@@ -65,13 +82,17 @@
 }
 
 .social-links i:hover {
-  border-top: 5px white solid;
-  border-bottom: 5px white solid;
   padding-top: 3px;
   padding-bottom: 3px;
 }
 
-.highlight:hover {
+.resume-download i {
+  color: white;
+  font-size: 2em;
+  padding: 8px;
+}
+
+.highlight:hover, .social-links i:hover, .resume-download i:hover {
   background-color: purple;
 }
 

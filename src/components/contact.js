@@ -8,14 +8,12 @@ class Contact extends Component {
         <Grid className="contact-grid">
           <Cell col={6}>
             <h2>Luke Slevinsky</h2>
+            <div className="padding"/>
             <img
-              src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png"
-              alt="avatar"
-              style={{height: "250px"}}
+              src="/images/luke-mountain.png"
+              alt="mountains"
+              className="mountains-img"
               />
-              <p style={{width: '75%', margin: 'auto', paddingTop: '1em'}}>
-                Culpa et anim veniam et cillum. Proident voluptate cillum minim qui. Laboris mollit ut sint id elit velit et excepteur exercitation. Exercitation labore incididunt excepteur aliquip ad quis magna mollit Lorem ea minim fugiat anim deserunt.
-              </p>
           </Cell>
           <Cell col={6}>
             <h2>Contact Me</h2>
